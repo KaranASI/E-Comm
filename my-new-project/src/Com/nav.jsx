@@ -7,11 +7,7 @@ function Navbar() {
       <nav className="bg-[rgb(249,60,30)] border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center">
-            <img
-              src="my-new-project/src/Image/png/logo-no-background.png"
-              className="h-8"
-              alt="OneStop"
-            />
+            <img src={logo} className="h-14" alt="OneStop" />
           </a>
           <div className="flex md:order-2">
             <button
@@ -141,7 +137,15 @@ function Navbar() {
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-white md:p-0"
                 >
-                  Services
+                  Cart
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-white md:p-0"
+                >
+                  Contact
                 </a>
               </li>
             </ul>
